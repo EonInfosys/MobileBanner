@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * EonInfosys_MobileBanner
+
+ * @category   EonInfosys
+ * @package    EonInfosys_MobileBanner
+ * @copyright  Copyright (c) 2017 EonInfosys
+ * @license    https://github.com/eoninfosys
+ * @version    1.0.0
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="mobilebanner_image_form" />
+        </referenceContainer>
+    </body>
+</page>

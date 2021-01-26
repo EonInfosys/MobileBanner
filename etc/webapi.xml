@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+  <!-- Routing define -->
+  <route url="/V1/apps/banner" method="GET">
+       <service class="EonInfosys\MobileBanner\Api\ImageRepositoryInterface" method="getById"/>
+       <resources>
+           <resource ref="anonymous"/>
+       </resources>
+  </route>
+
+    <route url="/V1/apps/banners" method="GET">
+        <service class="EonInfosys\MobileBanner\Api\ImageRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+
+    </route>    
+
+
+</routes>

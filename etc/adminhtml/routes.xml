@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * EonInfosys_MobileBanner
+
+ * @category   EonInfosys
+ * @package    EonInfosys_MobileBanner
+ * @copyright  Copyright (c) 2017 EonInfosys
+ * @license    https://github.com/eoninfosys
+ * @version    1.0.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="mobilebanner" frontName="mobilebanner">
+            <module name="EonInfosys_MobileBanner" />
+        </route>
+    </router>
+</config>
